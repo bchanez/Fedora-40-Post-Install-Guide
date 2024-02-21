@@ -177,6 +177,7 @@ Gnome-tweaks
 Krita
 VS Codium
 Spotify
+Act-cli
 ```
   
 ## Theming [Optional]
