@@ -170,12 +170,13 @@ DNSOverTLS=yes
  `sudo dnf install -y unzip p7zip p7zip-plugins unrar`
 * These are Some Packages that I use and would recommend:
 ```
-discord
-drawing
-foliate
-gnome-tweaks
-krita
+Discord
+Drawing
+Foliate
+Gnome-tweaks
+Krita
 VS Codium
+Spotify
 ```
   
 ## Theming [Optional]
