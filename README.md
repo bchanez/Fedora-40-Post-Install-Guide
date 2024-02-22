@@ -210,6 +210,7 @@ Krita
 VS Codium
 Spotify
 Act-cli
+chromium
 ```
 
 ## Theming [Optional]
