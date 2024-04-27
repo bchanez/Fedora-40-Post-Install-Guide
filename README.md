@@ -75,7 +75,7 @@ sudo fwupdmgr update
 - Install these to get proper multimedia playback.
 
 ```
-sudo dnf groupupdate 'core' 'multimedia' 'sound-and-video' --setop='install_weak_deps=False' --exclude='PackageKit-gstreamer-plugin' --allowerasing && sync
+sudo dnf groupupdate 'core' 'multimedia' 'sound-and-video' --setopt='install_weak_deps=False' --exclude='PackageKit-gstreamer-plugin' --allowerasing && sync
 sudo dnf swap 'ffmpeg-free' 'ffmpeg' --allowerasing
 sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel ffmpeg gstreamer-ffmpeg
 sudo dnf install lame\* --exclude=lame-devel
@@ -93,8 +93,8 @@ sudo dnf group upgrade --with-optional Multimedia
 <details>
 <summary>Intel</summary>
 
-- If you have an intel chipset after installing the packages above., Do:
-- `sudo dnf install intel-media-driver`
+- If you have a recent Intel chipset (5th Gen and above) after installing the packages above., Do:
+- `sudo dnf swap libva-intel-media-driver intel-media-driver --allowerasing`
 </details>
 
 <details>
@@ -223,3 +223,7 @@ chromium
 ### Starship (terminal theme)
 
 - Configure starship to make your terminal look good (refer https://starship.rs)
+
+```
+
+```
