@@ -197,6 +197,7 @@ VS Codium
 Spotify
 Act-cli
 chromium
+diffuse
 ```
 
 ## Theming [Optional]
