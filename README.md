@@ -198,6 +198,7 @@ Spotify
 Act-cli
 chromium
 diffuse
+xournalpp
 ```
 
 ## Theming [Optional]
